@@ -1,4 +1,4 @@
-##JSON-SQL-LOADER
+## JSON-SQL-LOADER
 
 #### Python `script` to load json, extract data and populate it to the MSSQL database. This script primarily uses the following libraries:
 1. [Python Pandas](https://pandas.pydata.org/): It is a very powerful data analysis library. This is used for data manipulation are creating data frames.
