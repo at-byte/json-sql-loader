@@ -21,7 +21,7 @@ db_connection_string = input('Enter the connection string for your DB: ')
 # verify DB connection string
 if db_connection_string == "":
     print('No DB connection string provided, exiting the script.')
-    #exit()
+    exit()
 else:
     db_connection_string: db_connection_string
 
