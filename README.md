@@ -46,7 +46,7 @@ Example:\
 3. Install Python (this script is tested on Python version >3.7.3 ).
 4. Install python dependencies `pip install -r requirements.txt`
 5. Create DB schema using the `NamasteTech-DBScript-task2.sql` file.
-6. Execute the python script from the CLI using the following command(`python namasteytech-json-sql-loader-task1.py`).
+6. Execute the python script from the CLI using the following command(`python namasteytech-json-sql-loader-task1.py`). When prompted, fill in the `order.json file` path and `db_connection_string` connection details. 
 7. Once the script execution is complete check the DB. All the values from the `order.json` file should be populated in the DB.
 
 
