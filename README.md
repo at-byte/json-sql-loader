@@ -4,7 +4,7 @@
 1. [Python Pandas](https://pandas.pydata.org/): It is a very powerful data analysis library. This is used for data manipulation are creating data frames.
 2. [SQLALCHEMY](https://www.sqlalchemy.org/): SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
 
-#### Pre-requisites
+## Pre-requisites
 
 ##### MAC specific requirement(Not needed for Windows)
 ###### Install `unixodbc`
@@ -22,7 +22,7 @@ In case `unixodbc` is not working following these troubleshooting steps:
 3. `ls -la  /usr/local/opt/unixodbc/lib`
 
 
-#### Database setup
+## Database setup
 ###### 1. Using AWS MSSQL RDS
 Follow these instructions to [SETUP MSSQL RDS ON AWS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToMicrosoftSQLServerInstance.html).
 This would fetch you the DB connection string. This would be used by the Python script to connect to the DB.\
@@ -40,7 +40,7 @@ Example:\
 
 
 
-#### How to Execute the script
+## How to Execute the script
 1. Clone the repo to your local system.
 2. Follow the instructions on the top so that the required pre-requisites are met.
 3. Install Python (this script is tested on Python version >3.7.3 ).
@@ -50,7 +50,7 @@ Example:\
 7. Once the script execution is complete check the DB. All the values from the `order.json` file should be populated in the DB.
 
 
-#### Using Jupyter notebook
+## Using Jupyter notebook
 1. Ensure that you have [Jupyter](https://jupyter.org/install) installed on your machine.
 2. Start the notebook from CLI by running the following command -->`jupyter notebook`
 3. Enter the DB connection URL in the 4th Cell, Example for MSSQL Server Localhost, default connection:\
